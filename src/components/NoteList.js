@@ -18,7 +18,7 @@ function NoteList() {
 
     const addNote = () => {
         const newNotes = [...notes];
-        newNotes.unshift({
+        newNotes.push({
             id: Math.floor(Math.random() * 78),
             text: '',
         })

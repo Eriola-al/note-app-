@@ -16,3 +16,7 @@ button {
     cursor: pointer;
   }
 
+.note-body {
+    background-color: white;
+    height: 260px;
+}

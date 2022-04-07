@@ -30,7 +30,7 @@ const NoteCard = ({ id, text, setNote, deleteNote }) => {
             </div>
             {
                 !edit ? (
-                    <TextArea style={{ height: '260px' }}>{text}</TextArea>
+                    <div className='note-body'>{text}</div>
                 ) : (
                     <TextArea style={{ height: '250px' }}
                         onChange={(e) => setNoteText(e.target.value)}
@@ -38,7 +38,7 @@ const NoteCard = ({ id, text, setNote, deleteNote }) => {
                         onKeyDown={(e) => e.key === 'Enter' && handleSubmit(e)}
                     ></TextArea>
                 )
-            }
+            } 
         </form>
     );
 
