@@ -1,0 +1,12 @@
+.background {
+width: 100vw;
+height: 100vh;
+background-color: #71cbff;
+}
+
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+  background-color: #71cbff;
+}
